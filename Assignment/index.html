@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "stylesheet" href = "style.css">
+<style res = "style.css"></style>
+</head>
+<body>
+
+<div class="main">
+<div class="body">
+  <script src="script.js"></script>
+
+<h1>Movie Suggestions</h1>
+<hr>
+
+<h2>Select a genre for suggestions</h2>
+
+<div id="myBtnContainer">
+  <button class="btn" onclick="filterSelection('all')"> Show all genres</button>
+  <button class="btn" onclick="filterSelection('romance')"> Romance</button>
+  <button class="btn" onclick="filterSelection('comedy')"> Comedy</button>
+  <button class="btn" onclick="filterSelection('thriller')"> Thriller</button>
+  <button class="btn" onclick="filterSelection('horror')">Horror</button>
+  <button class="btn" onclick="filterSelection('romcom')">Rom-Com</button>
+  <button class="btn" onclick="filterSelection('scifi')">Sci-Fi</button>
+  
+</div>
+
+<div class="row">
+  <div class="column romcom">
+    <div class="content">
+      <img src="New Folder\17 Again - Rom Com.jpg" alt="romcom" style="width:100%">
+      <h4>17 Again</h4>
+      <p>Rom-Com</p>
+    </div>
+  </div>
+
+  <div class="column horror">
+    <div class="content">
+    <img src="New Folder\Annabelle - Horror.jpg" alt="horror" style="width:100%">
+      <h4>Annabelle</h4>
+      <p>Horror</p>
+    </div>
+  </div>
+
+  <div class="column romcom">
+    <div class="content">
+    <img src="New Folder\Date Night - Rom Com.jpg" alt="romcom" style="width:100%">
+      <h4>Date Night</h4>
+      <p>Rom-Com</p>
+    </div>
+  </div>
+  
+  <div class="column thriller">
+    <div class="content">
+      <img src="New Folder\Don't Breathe - Thriller.jpg" alt="thriller" style="width:100%">
+      <h4>Don't Breathe</h4>
+      <p>Thriller</p>
+    </div>
+  </div>
+
+  <div class="column scifi">
+    <div class="content">
+    <img src="New Folder\Edge Of Tomorrow - SciFi.jpg" alt="scifi" style="width:100%">
+      <h4>Edge Of Tomorrow</h4>
+      <p>Sci-Fi</p>
+    </div>
+  </div>
+
+  <div class="column romance">
+      <div class="content">
+      <img src="New Folder\Five Feet Apart - Romance.jpg" alt="romance" style="width:100%">
+        <h4>Five Feet Apart</h4>
+        <p>Romance</p>
+      </div>
+  </div>
+
+  <div class="column scifi">
+      <div class="content">
+      <img src="New Folder\Gravity - SciFi.jpg" alt="scifi" style="width:100%">
+        <h4>Gravity</h4>
+        <p>Sci-Fi</p>
+      </div>
+  </div>
+
+  <div class="column scifi">
+      <div class="content">
+      <img src="New Folder\Inception - SciFi.jpg" alt="scifi" style="width:100%">
+        <h4>Inception</h4>
+        <p>Sci-Fi</p>
+      </div>
+  </div>
+
+  <div class="column scifi">
+      <div class="content">
+      <img src="New Folder\Interstellar - SciFi.jpg" alt="scifi" style="width:100%">
+        <h4>Interstellar</h4>
+        <p>Sci-Fi</p>
+      </div>
+  </div>
+
+  <div class="column horror">
+      <div class="content">
+      <img src="New Folder\IT - Horror.jpg" alt="horror" style="width:100%">
+        <h4>IT</h4>
+        <p>Horror</p>
+      </div>
+  </div>
+
+  <div class="column horror">
+      <div class="content">
+      <img src="New Folder\Oculus - Horror.jpg" alt="horror" style="width:100%">
+        <h4>Oculus</h4>
+        <p>Horror</p>
+      </div>
+  </div>
+
+  <div class="column romance">
+      <div class="content">
+      <img src="New Folder\PS I love you - Romance.jpg" alt="romance" style="width:100%">
+        <h4>PS I Love You</h4>
+        <p>Romance</p>
+      </div>
+  </div>
+
+  <div class="column thriller">
+      <div class="content">
+      <img src="New Folder\Shutter Island - Thriller.jpg" alt="thriller" style="width:100%">
+        <h4>Shutter Island</Isindex></h4>
+        <p>Thriller</p>
+      </div>
+  </div>
+
+  <div class="column thriller">
+      <div class="content">
+      <img src="New Folder\Split - Thriller.jpg" alt="thriller" style="width:100%">
+        <h4>Split</h4>
+        <p>Thriller</p>
+      </div>
+  </div>
+
+  <div class="column romance">
+      <div class="content">
+      <img src="New Folder\TFIOS - Romance.jpg" alt="romance" style="width:100%">
+        <h4>The Fault In Our Stars</h4>
+        <p>Romance</p>
+      </div>
+  </div>
+  
+  <div class="column comedy">
+      <div class="content">
+      <img src="New Folder\The Dictator - Comedy.jpg" alt="comedy" style="width:100%">
+        <h4>The Dictator</h4>
+        <p>Comedy</p>
+      </div>
+  </div>
+
+  <div class="column comedy">
+      <div class="content">
+      <img src="New Folder\The Hangover - Comedy.jpg" alt="comedy" style="width:100%">
+        <h4>The Hangover</h4>
+        <p>Comedy</p>
+      </div>
+  </div>
+
+  <div class="column thriller">
+      <div class="content">
+      <img src="New Folder\The Maze Runner - Thriller.jpg" alt="thriller" style="width:100%">
+        <h4>The Maze Runner</h4>
+        <p>Thriller</p>
+      </div>
+  </div>
+
+  <div class="column romance">
+      <div class="content">
+      <img src="New Folder\The Notebook - Romance.jpg" alt="romance" style="width:100%">
+        <h4>The Notebook</h4>
+        <p>Romance</p>
+      </div>
+  </div>
+
+  <div class="column romcom">
+      <div class="content">
+      <img src="New Folder\To All The Boys - Rom Com.jpg" alt="romcom" style="width:100%">
+        <h4>To All The Boys I've Loved Before</h4>
+        <p>Rom-Com</p>
+      </div>
+  </div>
+
+  <div class="column comedy">
+      <div class="content">
+      <img src="New Folder\We're The Millers - Comedy.jpg" alt="comedy" style="width:100%">
+        <h4>We're The Millers</h4>
+        <p>Comedy</p>
+      </div>
+  </div>
+
+  <div class="column comedy">
+      <div class="content">
+      <img src="New Folder\Why Him - Comedy.jpg" alt="comedy" style="width:100%">
+        <h4>Why Him</h4>
+        <p>Comedy</p>
+      </div>
+  </div>
+  
+</div>
+
+</div>
+</div>
+</body>
+</body>
+</html>

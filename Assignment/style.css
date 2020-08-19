@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  background:linear-gradient(to right, #00e7ffb8, #00ff78cc, #1d00ff8a);
+  padding: 20px;
+  font-family: Arial;
+}
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+  text-align: center;
+  font-family: Impact, Charcoal, sans-serif;
+  font-variant: small-caps;
+  color: darkslategray;
+}
+
+h2 {
+  font-size: 30px;
+  word-break: break-all;
+  text-align: center;
+  font-variant: small-caps;
+  color: darkslategray;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  display: none;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+.show {
+  display: block;
+}
+
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  cursor: pointer;
+  position: static;
+  font-size: 25;
+  font-family: monospace;
+  margin: 10;
+  cursor: pointer;
+  background-color: #97a3a2;
+  color: whitesmoke;
+  border-radius: 8px;
+}
+
+.btn:hover {
+  background-color: cadetblue;
+}
+
+ .btn.active {
+  background-color: #666;
+  color: white;
+}
+
+.textview{
+
+  width: 1015;
+  margin: 25;
+  font-size: 25;
+  color: antiquewhite;
+  padding: 5;
+  border: none;
+  color: #383b40;
+} 
